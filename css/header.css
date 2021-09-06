@@ -1,10 +1,4 @@
-body{
-    padding: 0;
-    margin: 0;
-}
-html {
-    font-family: 'Roboto Condensed', sans-serif;
-}
+
 #mainnav {
     position: absolute;
     font-family: 'Roboto Condensed', sans-serif;
@@ -58,7 +52,7 @@ html, body{
     bottom: 3%;
     color:#777;
 }
-.titulo {
+.title {
     font-size: 5em;
     text-align: center;
     font-weight: 700;
@@ -90,9 +84,3 @@ html, body{
      
 }
 
-h1 span{
-    font-size: 60px;
-    letter-spacing: 4;
-   
-    color: orange;
-}
