@@ -4,6 +4,8 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+    --title-color-jah : #2196f3;
+    --title-color-s : pink;
 }
 
 body {
@@ -14,6 +16,8 @@ body {
 a {
 	text-decoration: none;
 }
+
+
 
 
 body{
@@ -31,11 +35,7 @@ a{
     text-decoration: none;
 }
 
-h1 span{
-    font-size: 60px;
-    letter-spacing: 4;
-    color: orange;
-}
+
 
 ul li{
     list-style: none;

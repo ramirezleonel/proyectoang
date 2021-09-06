@@ -83,4 +83,16 @@ html, body{
     width: 200px;
      
 }
+h1 .title-jah{
+    color: var(--title-color-jah);
+}
 
+h1 .title-s{
+    color: var(--title-color-s);
+}
+
+h1 .title-main{
+    font-size: 60px;
+    letter-spacing: 4;
+    color: var(--title-color-s);
+}
