@@ -48,10 +48,22 @@ html, body{
 }
 
 .arrow{
+
+    left: 50%;
     position: absolute ;
-    bottom: 3%;
-    color:#777;
+    bottom: 2%;
+    color:var(--title-color-jah);
+    animation: bounce 2s infinite linear;
 }
+@keyframes bounce {
+	0% {transform: translateX(-50%) translateY(-50%)}
+	25% {transform: translateX(-50%) translateY(-65%)}
+	50% {transform: translateX(-50%) translateY(-50%)}
+	75% {transform: translateX(-50%) translateY(-35%)}
+	100% {transform: translateX(-50%) translateY(-50%)}
+}
+
+
 .title {
     font-size: 5em;
     text-align: center;
@@ -64,6 +76,7 @@ html, body{
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    animation: bounce s infinite linear;
 }
 #bubble {
     width: 100%;
