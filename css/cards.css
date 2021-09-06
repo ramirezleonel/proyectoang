@@ -1,7 +1,7 @@
 .title-section{
     color: gray;
 	font-weight: normal;
-
+    top: 50%;	
     position: relative;
 	font-family: 'Roboto', sans-serif;
 }
