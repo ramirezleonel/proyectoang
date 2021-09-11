@@ -1,6 +1,13 @@
-button {
-    position: absolute;
-   
+
+.show-image {
+    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+    font-weight: 900;
+    color: var(--title-color-s);
+    padding: 10px;
+    background: var(--title-color-jah);
+    text-transform: uppercase;
+    position: relative;
+    left: 30%;
     cursor: pointer;
     outline: none;
     border: 0;
@@ -9,15 +16,6 @@ button {
     font-size: inherit;
     font-family: inherit;
 }
-button.show-image {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #202121;
-    padding: 10px;
-    background: #fff;
-    text-transform: uppercase;
-    bottom: 0;
-}
-button.show-image:hover, button.show-image:focus, button.show-image:active {
+.show-image:hover, .show-image:focus, .show-image:active {
     letter-spacing: 0.125rem;
 }
