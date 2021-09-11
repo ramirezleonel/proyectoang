@@ -41,7 +41,10 @@ html, body{
     background-size: contain;
     background-image:url(../assets/images/barbijos-1.jpeg);
     background-size: 100% 100%;
+    filter: brightness(55%);
 }
+
+
 .arrow-position-bottom{
     display: flex;
     justify-content: center;
@@ -53,13 +56,13 @@ html, body{
     position: absolute ;
     bottom: 2%;
     color:var(--title-color-jah);
-    animation: bounce 2s infinite linear;
+    animation: bounces 1s infinite linear;
 }
-@keyframes bounce {
+@keyframes bounces {
 	0% {transform: translateX(-50%) translateY(-50%)}
-	25% {transform: translateX(-50%) translateY(-65%)}
+	25% {transform: translateX(-50%) translateY(-60%)}
 	50% {transform: translateX(-50%) translateY(-50%)}
-	75% {transform: translateX(-50%) translateY(-35%)}
+	75% {transform: translateX(-50%) translateY(-40%)}
 	100% {transform: translateX(-50%) translateY(-50%)}
 }
 

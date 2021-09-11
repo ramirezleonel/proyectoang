@@ -10,7 +10,7 @@ count,
 size = 7,
 speed = 20,
 lights = new Array,
-colors = ['#d59254','#ffffff','#1f2839','#cf7693'];
+colors = ['#2196f3','#ffffff','pink','#cf7693'];
 
 canvas.setAttribute('width',w);
 canvas.setAttribute('height',h);
