@@ -132,14 +132,14 @@ figure .trasera p {
 }
 
 @media screen and (max-width: 992px) { 
-	figure .trasera {
-		/*position: relative;*/
+	/* figure .trasera {
+		position: relative;
 		backface-visibility:visible;
 		transform: perspective(600px) rotateY(0deg);
-	}
+	} */
 
-	.contenedor_tarjeta:hover figure {
+	/* .contenedor_tarjeta:hover figure {
 		transform: perspective(600px) rotateY(0deg);	
-	}
+	} */
 
 }
